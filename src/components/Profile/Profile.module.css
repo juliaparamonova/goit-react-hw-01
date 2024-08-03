@@ -1,0 +1,80 @@
+.profile {
+    padding-top: 20px;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 175px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.userAvatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(24, 24, 24);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.tag {
+    font-weight: 400;
+    font-size: 14px;
+    color: grey;
+    margin: 0;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 16px;
+    color: grey;
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.listItem {
+    font-size: 18px;
+    border-top: 2px solid darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+}
+
+.listItem:first-child {
+    border-right: 2px solid darkgray;
+}
+
+.listItem:last-child {
+    border-left: 2px solid darkgray;
+}
